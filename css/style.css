@@ -1,0 +1,348 @@
+@font-face {
+    src: url(../Typography/Poppins/Poppins-Regular.ttf);
+    font-family:'poppins-regular'; 
+}
+
+@font-face{
+    src: url(../Typography/Poppins/Poppins-Thin.ttf);
+    font-family:'poppins-thin';
+}
+
+@font-face{  
+    src: url(../Typography/Poppins/Poppins-Light.ttf);
+    font-family: 'poppins-light';
+}
+
+@font-face{
+    src: url(../Typography/Prata/Prata-Regular.ttf);
+    font-family: 'prata';
+}
+
+@font-face{
+    src: url(../Typography/Vidaloka/Vidaloka-Regular.ttf);
+    font-family: 'vidaloka';
+}
+
+
+
+.body{
+    margin: 0 auto;
+}
+
+
+nav {
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-family: "poppins-regular";
+    font-size: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.menu3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-family: "poppins-regular";
+    font-size: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 70%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+   }
+
+.description1{
+    padding-top: 8px;
+}
+
+h1{
+    font-family: "prata";
+    font-size: 50px;
+    color: #1A1A1A;  
+}
+
+.myinformation{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 230px;
+    padding-bottom: 100px;
+}
+
+#titulo{
+    position: relative;
+    font-size: 24px;
+    font-family: "poppins-regular";
+}
+
+#titulo2{
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.josepachec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.yellowrec{
+
+    margin-top: -13px;
+
+}
+.recy1{
+    height: 20px;
+    width: 150px;
+}
+
+.recy2{
+    height: 20px;
+    width: 55px;
+}
+
+
+h2 {
+    
+    font-size: 24px;
+    color: #1A1A1A;
+}
+
+h3{
+    font-family: "poppins-light";
+    font-size: 20px;
+    color: #1A1A1A;
+}
+
+h4{
+    font-family: "poppins-light";
+    font-size: 15px;
+    color: #1A1A1A;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.showprojects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.imageproject{
+    width: 97%;
+    padding-bottom: 20px;
+    height: 344px;
+}
+
+.cardproject{
+    width: 45%;
+    
+}
+
+.body2{
+    width: 97%;
+    margin: 0 auto;
+}
+
+.flecha{
+    height: 20px;
+    width: auto;
+    padding-left: 20px;
+}
+
+#basedin{
+    padding-top: 35px;
+    font-family: "poppins-thin";
+    font-size: 30px;
+    color: #1A1A1A;  
+}
+
+.menu2{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.projectuxui{
+    padding-bottom: 100px;
+}
+
+.personallinks{
+
+    font-family: "poppins-thin";
+    font-size: 25px;
+    color: #1A1A1A; 
+    display: flex;
+    flex-direction: column;
+    
+   }
+.personallinks a{
+text-align: right;
+ 
+   }
+
+.button {
+       height:18px;
+       width: auto;
+   }
+
+/* .button:hover {
+       opacity: 0.5;
+   } */
+
+.buttonweb{
+       display: flex;
+       flex-direction:row;
+       justify-content: flex-end;
+       
+   }
+
+.screen{
+       margin: 0 auto;
+        display: flex;
+       width: 90%;
+       flex-direction: row; 
+       margin-top: 30px;  
+   }
+
+.projectsname{
+       width: 20%;
+   }
+
+.sticky{
+    position: fixed;
+}
+
+    .listauxui{
+    font-family: "poppins-light";
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.imagesofprojects{
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#brieftext{
+    margin-left: 30px;
+    border-left: solid black 1px;
+    padding-left: 10px;
+    padding-top: 0px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#wecooklandpage{
+    margin-top: 50px;
+}
+
+#wecooklandpage img{ 
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px) {
+
+}
+
+@media only screen and(min-width: 415px) and (max-width:768px){
+
+}
+
+@media only screen and(min-width: 769px) and (max-width:768px){}
+
+@media only screen and(min-width: 1025px) and (max-width:1440px){
+
+}
+
+@media only screen and(min-width: 769px){ 
+
+}
+
+
+/* --------TESTING------ */
+
+.logo-text {
+    font-size: 24px;
+    font-family: "poppins-regular";
+}
+
+.logo {
+    position: fixed;
+    width: 93vw;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 3;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.underline {
+    box-shadow: 0px 10px 0px yellow
+}
+
+nav {
+    width: 90vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
+
+nav a {
+    font-family: "poppins-regular";
+    font-size: 24px;
+    margin-right: 20%;
+}
+
+.sticky-cont {
+    position: sticky;
+    top:0;
+    z-index: 5;
+}
+
+nav a:hover {
+    box-shadow: 0px 10px 0px yellow;
+    opacity: 1
+}
